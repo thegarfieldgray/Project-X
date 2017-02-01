@@ -1,19 +1,6 @@
 <?php
 
-if(isset($_POST)){
-	$firstName = $_POST["firstName"];
-
-	/*$email = trimData($_POST["emailAddress"]);
-	$password = trimData($_POST["password"]);*/
-
-	echo "</br>";
-	echo "firstName is : ".$firstName;
-}else{
-	null;
-}
-
-
-/*	$servername = "localhost";
+	$servername = "localhost";
 	$username = "root";
 	$password = "";
 	$db_name = "internship";
@@ -28,6 +15,6 @@ if(isset($_POST)){
 	}
 	else{
 	echo "Connected successfully";
+	}
 
-}*/
 ?>
