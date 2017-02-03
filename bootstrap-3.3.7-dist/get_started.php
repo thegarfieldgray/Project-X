@@ -26,6 +26,6 @@ require 'connect.php';
 	    echo "Error: " . $sql . "<br>" . $conn->error;
 	}
 
-	$conn->close(); */
+	$conn->close();
 
 ?>

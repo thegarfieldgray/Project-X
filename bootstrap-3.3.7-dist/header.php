@@ -51,23 +51,23 @@
               <div class="modal-content">
                   <button type="button" class="close" data-dismiss="modal">&times; &nbsp;</button>
                   <br></br>
-                  <center><img src="img/modal_logo copy.png" class="img-responsive" alt="" width="20%" height="10%">
-                  <h5 class="modal-title" id="nunito_Font"><strong><b>CREATE &nbsp; YOUR &nbsp; ACCOUNT</b></strong></h5></center>
+                  <center><img src="img/modal_logo copy.png" class="img-responsive" alt="" width="20%" height="40%">
+                  <h5 class="modal-title" id="nunito_Font"><strong><b>CREATE&nbsp;YOUR&nbsp;ACCOUNT</b></strong></h5></center>
                   <hr>
                 <div class="modal-body">
 
                   <!-- ** FORM ** -->
 
-                    <form method="POST" action="connect.php" role="form">
+                    <form method="POST" action="get_started.php" role="form">
                       <div class="form-group">
                         <div class="row">
                           <!--First Name-->
                             <div class="col-xs-6">
-                              <input name="firstName" placeholder="First Name" id="firstName" type="text" class="form-control">
+                              <input name="firstName" placeholder="First Name" id="firstName" type="text">
                             </div>
                           <!--Last Name-->
                             <div class="col-xs-6">
-                              <input name="lastName" placeholder="Last Name" id="lastName" type="text" class="form-control">
+                              <input name="lastName" placeholder="Last Name" id="lastName" type="text">
                             </div>
                         </div>
                       </div>
@@ -77,7 +77,7 @@
                           <!-- Email -->
                           <div class="col-xs-12">
                             <a href="#" data-toggle="tooltip" title="We'll never share your email with anyone else">
-                              <input name="emailAddress" type="email" placeholder="Email" id="emailAddress" class="form-control" required>
+                              <input name="emailAddress" type="email" placeholder="Email" id="emailAddress" required>
                             </a>
                           </div>
                         </div>
@@ -87,7 +87,7 @@
                         <div class="row">
                         <!--Password-->
                           <div class="col-xs-12">
-                            <input name="password" type="Password" placeholder="Password" id="password" class="form-control" required>
+                            <input name="password" type="Password" placeholder="Password" id="password" required>
                           </div>
                         </div>
                       </div>
