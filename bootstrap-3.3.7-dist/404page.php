@@ -12,6 +12,7 @@
     	<link rel="stylesheet" type="text/css" href="css/hover.css">
     	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
 
         <style>
             html,body{

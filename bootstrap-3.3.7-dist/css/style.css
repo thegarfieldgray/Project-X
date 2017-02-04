@@ -25,20 +25,20 @@
 	margin-right: 30px;
 }
 
-/* navbar color */
+/* navbar color : 4F92BF*/
 .navbar-blue {
-    background-color: #4F92BF;
+    background-color: white;
     margin-bottom: 0px;
 }
 
 /* Logo color */
 .navbar-blue .navbar-brand {
-    color: white;
+    color: none;
 }
 
 /* Link color */
 .navbar-blue .navbar-nav > li > a {
-    color: white;
+    color: #4F92BF;
 }
 
 .navbar-blue .navbar-nav > li > a:hover,
@@ -109,6 +109,17 @@
     border-color: #1c1c1c;
 }
 
+.btn-trans {
+    background-color: transparent;
+    border-style: none;
+    color: #ff7055;
+    margin-bottom: 7px;
+}
+
+.pull-right-li {
+  margin-left: 20px;
+}
+
 /* gs - get started */
 
 .btn-submit-gs {
@@ -164,7 +175,7 @@ input {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: white;
+  background: #4F92BF;
   height: 1px;
   -webkit-transition-property: right;
   transition-property: right;

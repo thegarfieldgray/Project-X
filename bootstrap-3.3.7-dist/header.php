@@ -24,24 +24,42 @@
         			</div>
       				</button>
       				<p></p>
-      				<a class="navbar-brand" href="index.php"><img src="img/logo.png"></a>
+      				<a class="navbar-brand" href="index.php"><img src="img/modal_logo copy.png"></a>
     			</div> 
 
     			  <div class="collapse navbar-collapse" id="nav-bar-mobile-menu">
-                    <ul class="nav navbar-nav" id="nunito_Font">
-                    	<li id="right_shift"><a href="Students.php"><span class="hvr-underline-from-left-white">Educators</span></a></li>
-                    	<li id="right_shift" class="hvr-underline-from-left-white"><a href="Employeers.php">Employers</a></li>
-				    	<li id="right_shift" class="hvr-underline-from-left-white"><a href="Students.php">Students</a></li>
-                    </ul>
+              <ul class="nav navbar-nav" id="nunito_Font">
+                <li id="right_shift"><a href="Students.php"><span class="hvr-underline-from-left-white">Educators</span></a></li>
+                <li id="right_shift" class="hvr-underline-from-left-white"><a href="Employeers.php">Employers</a></li>
+				    	  <li id="right_shift" class="hvr-underline-from-left-white"><a href="Students.php">Students</a></li> 
+              </ul>
+            
+            <!--nav items on the right -->
 
-                    <!--nav items on the right -->
+				     <ul class="nav navbar-nav navbar-right" id="nunito_Font">
 
-				  <ul class="nav navbar-nav navbar-right" id="nunito_Font">
-				      <li id="right_shift"><a href="">Login</a></li>
-				      <li><button type="button" class="btn-xs btn-default2 btn-block" data-toggle="modal" data-target="#myModal" id="nunito_Font">Get Started</button>
-				      </li>
-				   </ul>
-                </div>
+            <!-- Search bar -->
+
+              <li>
+                <form class="navbar-form" role="search">
+                  <div class="input-group">
+                    <input type="text" placeholder="Search" name="search_query">
+                      <div class="input-group-btn">
+                        <button class="btn btn-trans" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                      </div>
+                  </div>
+                </form>
+              </li>
+
+            <!-- End Search Bar -->
+
+            <!-- Right Nav Attributes -->
+
+  				    <li id="right_shift"><a href="">Login</a></li>
+  				    <li><button type="button" class="btn-xs btn-default2 btn-block" data-toggle="modal" data-target="#myModal" id="nunito_Font">Get Started</button>
+  				    </li>
+				     </ul>
+            </div>
     		</div>
     	</nav>
         <!-- Modal -->
@@ -53,11 +71,169 @@
                   <br></br>
                   <center><img src="img/modal_logo copy.png" class="img-responsive" alt="" width="20%" height="40%">
                   <h5 class="modal-title" id="nunito_Font"><strong><b>CREATE&nbsp;YOUR&nbsp;ACCOUNT</b></strong></h5></center>
-                  <hr>
                 <div class="modal-body">
 
-                  <!-- ** FORM ** -->
+                <!-- Tabs -->
 
+                <ul class="nav nav-tabs nav-justified">
+                    <li class="active">
+                      <a data-toggle="tab" href="#Educators">Educators</a>
+                    </li>
+                    <li>
+                      <a data-toggle="tab" href="#Employers">Employers</a>
+                    </li>
+                    <li>
+                      <a data-toggle="tab" href="#Students">Students</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                  <div id="Educators" class="tab-pane fade in active">
+
+                  <!-- ** FORM ** -->
+                 <br>
+                 
+                    <form method="POST" action="get_started_educators.php" role="form">
+                      <div class="form-group">
+                        <div class="row">
+                          <!--First Name-->
+                            <div class="col-xs-6">
+                              <input name="firstName" placeholder="First Name" id="firstName" type="text">
+                            </div>
+                          <!--Last Name-->
+                            <div class="col-xs-6">
+                              <input name="lastName" placeholder="Last Name" id="lastName" type="text">
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <div class="row">
+                          <!-- Email -->
+                          <div class="col-xs-12">
+                            <a href="#" data-toggle="tooltip" title="We'll never share your email with anyone else">
+                              <input name="emailAddress" type="email" placeholder="Email" id="emailAddress" required>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <div class="row">
+                        <!--Password-->
+                          <div class="col-xs-12">
+                            <input name="password" type="Password" placeholder="Password" id="password" required>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <!-- Confirm password -->
+                        <div class="row">
+                          <div class="col-xs-12">
+                            <input name="confirmPassword" type="Password" placeholder="Confirm Password" id="confirmPassword" required>
+                            <div id="checkPasswordMatch"></div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <div class="row">
+                          <div class="col-xs-6">
+                            <button type="reset" class="btn-xs btn-default-clearAll btn-block form-control">Clear All</button>
+                          </div>
+
+                          <div class="col-xs-6">
+                            <input type="submit" class="hvr-bounce-to-bottom btn-xs btn-submit-gs btn-block form-control">
+                          </div><!--End Form Group-->
+
+                        </div><!--End row-->
+                      </div><!-- End form group-->
+                    </form><!--END FORM-->
+
+
+                    </div><!--End Educator Tab-->
+
+                    <div id="Employers" class="tab-pane fade">
+
+                  <!-- ** FORM ** -->
+                  <br>
+
+                    <form method="POST" action="get_started_employers.php" role="form">
+                      <div class="form-group">
+                        <div class="row">
+                          <!--First Name-->
+                            <div class="col-xs-6">
+                              <input name="firstName" placeholder="First Name" id="firstName" type="text">
+                            </div>
+                          <!--Last Name-->
+                            <div class="col-xs-6">
+                              <input name="lastName" placeholder="Last Name" id="lastName" type="text">
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <div class="row">
+                          <!-- Company Name -->
+                          <div class="col-xs-12">
+                            <input name="companyName" type="text" placeholder="Company Name" id="companyName" required>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <div class="row">
+                          <!-- Email -->
+                          <div class="col-xs-12">
+                            <a href="#" data-toggle="tooltip" title="We'll never share your email with anyone else">
+                              <input name="emailAddress" type="email" placeholder="Email" id="emailAddress" required>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <div class="row">
+                        <!--Password-->
+                          <div class="col-xs-12">
+                            <input name="password" type="Password" placeholder="Password" id="password" required>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <!-- Confirm password -->
+                        <div class="row">
+                          <div class="col-xs-12">
+                            <input name="confirmPassword" type="Password" placeholder="Confirm Password" id="confirmPassword" required>
+                            <div id="checkPasswordMatch"></div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <div class="row">
+                          <div class="col-xs-6">
+                            <button type="reset" class="btn-xs btn-default-clearAll btn-block form-control">Clear All</button>
+                          </div>
+
+                          <div class="col-xs-6">
+                            <input type="submit" class="hvr-bounce-to-bottom btn-xs btn-submit-gs btn-block form-control">
+                          </div><!--End Form Group-->
+
+                        </div><!--End row-->
+                      </div><!-- End form group-->
+                    </form><!--END FORM-->
+
+
+                    </div><!--End Employer ID-->
+
+                    <div id="Students" class="tab-pane fade">
+
+                  <!-- ** FORM ** -->
+                  
+                  <br>
+                  
                     <form method="POST" action="get_started.php" role="form">
                       <div class="form-group">
                         <div class="row">
@@ -115,6 +291,10 @@
                         </div><!--End row-->
                       </div><!-- End form group-->
                     </form><!--END FORM-->
+
+                    </div><!--End Students ID-->
+
+                  </div>
                 </div><!--End Modal Body-->
               </div>
             </div>

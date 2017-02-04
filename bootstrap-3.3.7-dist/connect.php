@@ -10,8 +10,8 @@
 
 	// Check connection
 	if ($conn->connect_error) {
-		// **CREATE ERROR 404 PAGE
-	    die("Connection failed: " . $conn->connect_error);
+	    $err_msg = $conn->connect_error;
+
 	    $conn->close();
 	}
 

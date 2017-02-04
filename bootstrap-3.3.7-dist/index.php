@@ -1,10 +1,9 @@
 <!--header-->
 <?php require 'header.php';?>
  <!-- Full Page Image Background Carousel Header -->
- <div class="container full">
- 	<div class="">
- 	</div>
- </div>
+<div class="full">
+<img src="img/logo.png" alt="">
+</div>
  </br>
  </br>
 
