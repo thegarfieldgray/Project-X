@@ -71,7 +71,7 @@
                   <br></br>
                   <center><img src="img/modal_logo copy.png" class="img-responsive" alt="" width="20%" height="40%">
                   <h5 class="modal-title" id="nunito_Font"><strong><b>CREATE&nbsp;YOUR&nbsp;ACCOUNT</b></strong></h5></center>
-                <div class="modal-body">
+                <div class="modal-body" id="modal-push">
 
                 <!-- Tabs -->
 
@@ -161,19 +161,6 @@
                     <form method="POST" action="get_started_employers.php" role="form">
                       <div class="form-group">
                         <div class="row">
-                          <!--First Name-->
-                            <div class="col-xs-6">
-                              <input name="firstName" placeholder="First Name" id="firstName" type="text">
-                            </div>
-                          <!--Last Name-->
-                            <div class="col-xs-6">
-                              <input name="lastName" placeholder="Last Name" id="lastName" type="text">
-                            </div>
-                        </div>
-                      </div>
-
-                      <div class="form-group">
-                        <div class="row">
                           <!-- Company Name -->
                           <div class="col-xs-12">
                             <input name="companyName" type="text" placeholder="Company Name" id="companyName" required>
@@ -233,7 +220,7 @@
                   <!-- ** FORM ** -->
                   
                   <br>
-                  
+
                     <form method="POST" action="get_started.php" role="form">
                       <div class="form-group">
                         <div class="row">

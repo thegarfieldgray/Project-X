@@ -1,10 +1,7 @@
 <!--header-->
 <?php require 'header.php';?>
  <!-- Full Page Image Background Carousel Header -->
-<div class="full">
-<img src="img/logo.png" alt="">
-</div>
- </br>
+
  </br>
 
 <!-- Major Partners -->
