@@ -13,7 +13,7 @@
     	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300" rel="stylesheet">
 	</head>
 	<body>
-		<nav class="navbar navbar-blue">
+		<nav class="navbar navbar-blue navbar-fixed-top">
 			<div class="container-fluid">
 				<div class="navbar-header">
       				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-bar-mobile-menu">
@@ -43,7 +43,7 @@
               <li>
                 <form class="navbar-form" role="search">
                   <div class="input-group">
-                    <input type="text" placeholder="Search" name="search_query">
+                    <input type="text" placeholder="Search" name="q">
                       <div class="input-group-btn">
                         <button class="btn btn-trans" type="submit"><i class="glyphicon glyphicon-search"></i></button>
                       </div>
@@ -288,10 +288,10 @@
           </div>
 
           <script>
-            $(function(){
+            /*$(function(){
               $("confirmPassword").keyup(function(){
                 var password = $("password").val();
                   $("#checkPasswordMatch").hmtl(password == $(this).val ()? "password match" : "password not match");
               });
-            });
+            });*/
           </script>
