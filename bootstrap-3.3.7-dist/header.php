@@ -14,7 +14,7 @@
 	</head>
 	<body>
 		<nav class="navbar navbar-blue navbar-fixed-top">
-			<div class="container-fluid">
+			<div class="container">
 				<div class="navbar-header">
       				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-bar-mobile-menu">
       				<div class="">
@@ -62,6 +62,7 @@
             </div>
     		</div>
     	</nav>
+
         <!-- Modal -->
           <div id="myModal" class="modal fade" role="dialog">
             <div class="modal-dialog">

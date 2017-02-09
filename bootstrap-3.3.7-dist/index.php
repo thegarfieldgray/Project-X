@@ -12,10 +12,28 @@
   <div class="carousel-inner" role="listbox">
     <div class="item active">
       <img src="img/doc.png" alt="doc">
+
+<div class="full-width">   
       <div class="carousel-caption">
-        <h3>Med Student?</h3>
-        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+        <div class="row">
+        
+          <div class="col-xs-6">
+            <p>MAKE MOVES</p>
+            <p>Your Future Begins Here</p>
+            <p>Free of charge</p>
+            <button class="btn-xs btn-default2">Get Started</button>
+          </div>
+          <div class="col-xs-6">
+            <p>MAKE MOVES</p>
+            <p>Your Future Begins Here</p>
+            <p>Free of charge</p>
+            <button class="btn-xs btn-default2 btn-block">Get Started</button>
+          </div>
+       
+        </div>
       </div>
+
+    </div>
     </div>
 	</div>
 	</div>
